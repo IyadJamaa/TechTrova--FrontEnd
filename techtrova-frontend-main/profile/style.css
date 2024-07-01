@@ -1,0 +1,38 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 18px 0;
+}
+
+.separator {
+    margin: 48px 0;
+}
+
+.frame span,
+.frame a {
+    color: #fbfbfba1;
+}
+
+.frame button {
+    background-color: #0000;
+    color: #A21A22;
+    display: flex;
+    width: max-content;
+    margin-left: auto;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.profile-image {
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+}
+
+.d-none {
+    display: none;
+}

@@ -1,0 +1,22 @@
+.content {
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.head {
+    text-align: center;
+    width: 100%;
+    line-height: 2;
+    margin-top: 20px;
+}
+
+.head span {
+    color: rgb(113, 37, 244);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.head p {
+    color: #ffffffbf;
+    line-height: 3;
+}

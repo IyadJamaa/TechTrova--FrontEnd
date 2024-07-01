@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../../assets/styles/globals.css" />
+    <link rel="stylesheet" href="/assets/styles/articles.css">
+    <title>Native App Development</title>
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <nav class="nav-container">
+        <ul class="logo-side">
+            <a href="/" class="logo"
+                style="padding-top: 18px; display: flex; font-size: 24px; text-decoration: none;">
+                Tech <font color="#264FD9"> Trova</font>
+            </a>
+        </ul>
+        <ul class="right-side">
+            <li><a href="/basics/">Basics</a></li>
+            <li><a href="/#paths">Paths</a></li>
+            <li><a href="/tips/">Tips</a></li>
+            <li><a href="/pricing/">Pricing</a></li>
+        </ul>
+    </nav>
+    <hr />
+
+    <!-- Content -->
+    <div class="content">
+        <div class="head">
+            <span>T I P S</span>
+            <br />
+            <h1 class="article-title"></h1>
+            <p class="article-description"></p>
+        </div>
+        <hr />
+        <div class="article-content"></div>
+    </div>
+
+    <!-- Footer -->
+    <hr />
+    <div style="display: inline-flex; width: 100%">
+        <div style="width: 50%; line-height: 2.3; margin-left: 120px">
+            <h2 class="logo">Tech <font color="#264FD9"> Trova</font>
+            </h2>
+            <p style="color: white; font-size: 12px; margin-left: 30px">
+                Tech Trova is proudly made in Egypt
+            </p>
+            <p style="color: white; font-size: 12px; margin-left: 30px">
+                ©2024 TechTrova
+            </p>
+        </div>
+
+        <br />
+        <div style="width: 50%; margin-left: 800px; line-height: 2.8">
+            <p style="
+              color: white;
+              margin-left: 42px;
+              margin-top: 25px;
+              font-size: 13px;
+            ">
+                Our Social Media:
+            </p>
+
+            <div class="footer-icons" style="display: inline-flex; margin-left: 25px">
+                <a href=""><img src="../../assets/images/globals/footer/twitter (1).png" alt="X" /></a>
+                <a href=""><img src="../../assets/images/globals/footer/linkedin (1).png" alt="LinkedIn" /></a>
+                <a href=""><img src="../../assets/images/globals/footer/github (1).png" alt="GitHub" /></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="chatbot-container">
+        <img class="chatbot-image" src="/assets/images/globals/chatbot.gif" alt="">
+        <div class="chat-container">
+            <div class="chat-header">
+                <h3>TechTrova AI</h3>
+                <svg class="close-chatbot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
+                    class="size-4">
+                    <path
+                        d="M5.28 4.22a.75.75 0 0 0-1.06 1.06L6.94 8l-2.72 2.72a.75.75 0 1 0 1.06 1.06L8 9.06l2.72 2.72a.75.75 0 1 0 1.06-1.06L9.06 8l2.72-2.72a.75.75 0 0 0-1.06-1.06L8 6.94 5.28 4.22Z" />
+                </svg>
+            </div>
+            <div class="chat-body"></div>
+            <div class="chat-footer">
+                <form class="chatbot-send-form">
+                    <input class="chatbot-message-input" type="text" placeholder="Enter message" required>
+                    <button>Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+<script src="/assets/scripts/chatbot.js"></script>
+<script src="/assets/scripts/globals.js"></script>
+
+</html>

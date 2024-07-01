@@ -1,0 +1,140 @@
+.content {
+  line-height: 1.2;
+}
+
+.vertical-line {
+  position: relative;
+}
+
+.vertical-line::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 400px;
+  left: 50%;
+  background-color: rgba(67, 66, 66, 0.648);
+}
+
+.main1 {
+  height: 500px;
+  margin-left: 160px;
+  margin-right: 160px;
+  background-color: rgb(14, 22, 31);
+}
+
+.main2 {
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.text {
+  font-size: 14px;
+  color: #a7a1a1;
+}
+
+/* toggle-button */
+.toggle {
+  padding: 0;
+  margin: 0;
+  width: fit-content;
+  height: fit-content;
+  background-color: rgb(14, 22, 31);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -13px;
+  margin-left: 313px;
+}
+
+.check-button {
+  background-color: #d2d2d2;
+  width: 40px;
+  height: 20px;
+  border-radius: 40px;
+  cursor: pointer;
+  position: relative;
+  transition: 0.2s;
+}
+
+.check-button::before {
+  position: absolute;
+  content: "";
+  background-color: #fff;
+  width: 16px;
+  height: 16px;
+  border-radius: 40px;
+  margin: 2px;
+  transition: 0.2s;
+}
+
+input:checked+.check-button {
+  background-color: #20096d;
+}
+
+input:checked+.check-button::before {
+  transform: translateX(20px);
+}
+
+input {
+  display: none;
+}
+
+/* ul */
+.list {
+  display: flex;
+}
+
+ul {
+  list-style-type: "\2713";
+  padding-left: 12px;
+}
+
+li {
+  padding-left: 8px;
+}
+
+/* ul  */
+
+.button0 {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: flex-end; */
+}
+
+.button1 {
+  /* margin-right: 60px; */
+  border: 2px solid #1d42c6;
+  border-radius: 12px;
+  background-color: #0b1b5089;
+  color: white;
+  height: 35px;
+  width: 100px;
+  text-align: center;
+  align-items: flex-end;
+  align-items: end;
+}
+
+.button2 {
+  margin-right: 135px;
+  border: 2px solid #1d42c6;
+  border-radius: 12px;
+  background-color: #0b1b5089;
+  color: white;
+  height: 35px;
+  width: 100px;
+  text-align: center;
+  align-items: end;
+}
+
+.m4 {
+  display: hidden;
+}
+
+mark {
+  background-color: #5d6ff9;
+  color: white;
+  border-radius: 6px;
+  width: 10px;
+}
